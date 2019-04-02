@@ -90,7 +90,8 @@
 }
 
 .contact-us-family .section-title {
-    padding: 20px 0;
+    /* padding: 20px 0; */
+    padding-bottom: 20px;
 }
 
 .contact-us-family .section-title h3 {
