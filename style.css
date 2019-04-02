@@ -57,28 +57,65 @@
 }
 
 .ul-links-social li {
-    background: #fff;
+    background: #4DB7FE;
     box-shadow: 0px 0px 0px 7px rgba(255,255,255,0.2);
-    border-radius: 3px; 
+    border-radius: 5px; 
     margin: 15px;
     height: 40px;
     width: 40px;
     line-height: 3.5;
 }
 
-/* .ul-links-social li:hover{
+.ul-links-social li:hover {
     background: #2C3B5A;
-    color: #fff;
-} */
-
-.ul-links-social li  a{
-    padding: 10px
 }
 
-.ul-links-social li a i{
+.ul-links-social li  a {
+    padding: 10px;
+}
+
+.ul-links-social a:hover {
+    color: #fff;
+}
+
+.ul-links-social li a i {
     font-size: 20px;
 }
 
 
-/* ------- */
+.contact-us-family {
+    background: #f9f9f9;
+    padding-bottom: 40px;
+    padding-top: 0;
+}
 
+.contact-us-family .section-title {
+    padding: 20px 0;
+}
+
+.contact-us-family .section-title h3 {
+    float: left;
+    width: 100%;
+    text-align: center;
+    color: #566985;
+    font-size: 24px;
+    font-weight: 700;
+    padding: 15px 0;
+}
+
+.contact-us-family .contact-us-btn {
+    background: #4DB7FE;
+    box-shadow: 0px 0px 0px 7px rgba(0,0,0,0.1);
+    top: 0;
+    padding: 20px 55px;
+    border-radius: 30px;
+}
+
+.contact-us-family .contact-us-btn:hover {
+    background: #2C3B5A ;
+    color: #fff;
+}
+
+.contact-us-family .join-wrap {
+    padding: 40px 10px;
+}
