@@ -40,105 +40,83 @@
     <div id="main">
         <!-- header-->
         <header class="main-header dark-header fs-header sticky">
-            <div class="header-inner">
-                <div class="logo-holder">
-                    <a href="index.html"><img src="images/logo.png" alt=""></a>
-                </div>
-                <div class="header-search vis-header-search">
-                    <div class="header-search-input-item">
-                        <input type="text" placeholder="Keywords" value="" />
+                <div class="header-inner">
+                    <div class="logo-holder">
+                        <a href="https://gruponewcard.com/" title="Grupo Newcard">
+                            <img src="https://gruponewcard.com/wp-content/themes/grupo-newcard/assets/public/images/newcard-logo-branco.png"
+                                alt="Grupo Newcard">
+                        </a>
                     </div>
-                    <div class="header-search-select-item">
-                        <select data-placeholder="All Categories" class="chosen-select">
-                            <option>All Categories</option>
-                            <option>Shops</option>
-                            <option>Hotels</option>
-                            <option>Restaurants</option>
-                            <option>Fitness</option>
-                            <option>Events</option>
-                        </select>
+    
+    
+                    <a href="#" title="Cadastrar" class="add-list">
+                        Cadastrar <span><i class="fa fa-plus"></i></span>
+                    </a>
+    
+                    <div class="show-reg-form modal-open">
+                        <i class="fa fa-sign-in"></i>
+                        Entrar
                     </div>
-                    <button class="header-search-button" onclick="window.location.href='listing.html'">Search</button>
-                </div>
-                <div class="show-search-button"><i class="fa fa-search"></i> <span>Search</span></div>
-                <a href="dashboard-add-listing.html" class="add-list">Add Listing <span><i
-                            class="fa fa-plus"></i></span></a>
-                <div class="show-reg-form modal-open"><i class="fa fa-sign-in"></i>Sign In</div>
-                <!-- nav-button-wrap-->
-                <div class="nav-button-wrap color-bg">
-                    <div class="nav-button">
-                        <span></span><span></span><span></span>
+    
+                    <!-- nav-button-wrap-->
+                    <div class="nav-button-wrap color-bg">
+                        <div class="nav-button">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
                     </div>
+                    <!-- nav-button-wrap end-->
+    
+                    <!--  navigation -->
+                    <div class="nav-holder main-menu">
+                        <nav>
+                            <ul id="menu-principal" class="">
+                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5404"><a
+                                        href="https://gruponewcard.com/sobre-a-newcard/">Apresentação</a></li>
+                                <li
+                                    class="menu-item menu-item-type-post_type_archive menu-item-object-company menu-item-5416">
+                                    <a href="https://gruponewcard.com/empresas/">Empresas</a></li>
+                                <li
+                                    class="menu-item menu-item-type-post_type_archive menu-item-object-unit menu-item-has-children menu-item-5409">
+                                    <a href="https://gruponewcard.com/unidades/">Unidades<i
+                                            class="fa fa-caret-down"></i></a>
+                                    <ul class="sub-menu">
+                                        <li class="menu-item menu-item-type-post_type menu-item-object-unit menu-item-5410">
+                                            <a href="https://gruponewcard.com/unidades/bariri/">Bariri</a></li>
+                                        <li class="menu-item menu-item-type-post_type menu-item-object-unit menu-item-5411">
+                                            <a href="https://gruponewcard.com/unidades/barra-bonita/">Barra Bonita</a></li>
+                                        <li class="menu-item menu-item-type-post_type menu-item-object-unit menu-item-5412">
+                                            <a href="https://gruponewcard.com/unidades/bauru/">Bauru</a></li>
+                                        <li class="menu-item menu-item-type-post_type menu-item-object-unit menu-item-5413">
+                                            <a href="https://gruponewcard.com/unidades/jau/">Jaú</a></li>
+                                        <li class="menu-item menu-item-type-post_type menu-item-object-unit menu-item-5414">
+                                            <a href="https://gruponewcard.com/unidades/marilia/">Marília</a></li>
+                                        <li class="menu-item menu-item-type-post_type menu-item-object-unit menu-item-5415">
+                                            <a href="https://gruponewcard.com/unidades/ribeirao-preto/">Ribeirão Preto</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li
+                                    class="menu-item menu-item-type-post_type_archive menu-item-object-plan menu-item-has-children menu-item-5405">
+                                    <a href="https://gruponewcard.com/planos/">Planos<i class="fa fa-caret-down"></i></a>
+                                    <ul class="sub-menu">
+                                        <li class="menu-item menu-item-type-post_type menu-item-object-plan menu-item-5406">
+                                            <a href="https://gruponewcard.com/planos/gratis/">Grátis</a></li>
+                                        <li class="menu-item menu-item-type-post_type menu-item-object-plan menu-item-5408">
+                                            <a href="https://gruponewcard.com/planos/prata/">Prata</a></li>
+                                        <li class="menu-item menu-item-type-post_type menu-item-object-plan menu-item-5407">
+                                            <a href="https://gruponewcard.com/planos/ouro/">Ouro</a></li>
+                                    </ul>
+                                </li>
+                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5403"><a
+                                        href="https://gruponewcard.com/fale-com-a-newcard/">Contato</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <!-- navigation  end -->
                 </div>
-                <!-- nav-button-wrap end-->
-                <!--  navigation -->
-                <div class="nav-holder main-menu">
-                    <nav>
-                        <ul>
-                            <li>
-                                <a href="#">Home <i class="fa fa-caret-down"></i></a>
-                                <!--second level -->
-                                <ul>
-                                    <li><a href="index.html">Parallax Image</a></li>
-                                    <li><a href="index2.html">Video</a></li>
-                                    <li><a href="index3.html">Map</a></li>
-                                    <li><a href="index4.html">Slideshow</a></li>
-                                    <li><a href="index5.html">Slider</a></li>
-                                </ul>
-                                <!--second level end-->
-                            </li>
-                            <li>
-                                <a href="#" class="act-link">Listings <i class="fa fa-caret-down"></i></a>
-                                <!--second level -->
-                                <ul>
-                                    <li><a href="listing.html">Column map</a></li>
-                                    <li><a href="listing2.html">Column map 2</a></li>
-                                    <li><a href="listing3.html">Fullwidth Map</a></li>
-                                    <li><a href="listing4.html">Fullwidth Map 2</a></li>
-                                    <li><a href="listing5.html">Without Map</a></li>
-                                    <li><a href="listing6.html">Without Map 2</a></li>
-                                    <li>
-                                        <a href="#">Single <i class="fa fa-caret-down"></i></a>
-                                        <!--third  level  -->
-                                        <ul>
-                                            <li><a href="listing-single.html">Style 1</a></li>
-                                            <li><a href="listing-single2.html">Style 2</a></li>
-                                            <li><a href="listing-single3.html">Style 3</a></li>
-                                            <li><a href="listing-single4.html">Style 4</a></li>
-                                        </ul>
-                                        <!--third  level end-->
-                                    </li>
-                                </ul>
-                                <!--second level end-->
-                            </li>
-                            <li>
-                                <a href="blog.html">News</a>
-                            </li>
-                            <li>
-                                <a href="#">Pages <i class="fa fa-caret-down"></i></a>
-                                <!--second level -->
-                                <ul>
-                                    <li><a href="about.html">About</a></li>
-                                    <li><a href="contacts.html">Contacts</a></li>
-                                    <li><a href="author-single.html">User single</a></li>
-                                    <li><a href="how-itworks.html">How it Works</a></li>
-                                    <li><a href="pricing-tables.html">Pricing</a></li>
-                                    <li><a href="dashboard-myprofile.html">User Dasboard</a></li>
-                                    <li><a href="blog-single.html">Blog Single</a></li>
-                                    <li><a href="dashboard-add-listing.html">Add Listing</a></li>
-                                    <li><a href="404.html">404</a></li>
-                                    <li><a href="coming-soon.html">Coming Soon</a></li>
-                                    <li><a href="header2.html">Header 2</a></li>
-                                    <li><a href="footer-fixed.html">Footer Fixed</a></li>
-                                </ul>
-                                <!--second level end-->
-                            </li>
-                        </ul>
-                    </nav>
-                </div>
-                <!-- navigation  end -->
-            </div>
-        </header>
+            </header>
         <!--  header end -->
         <!-- wrapper -->
         <div id="wrapper">
@@ -152,14 +130,13 @@
                     <div class="overlay"></div>
                     <div class="container">
                         <div class="section-title center-align">
-                            <h2><span>Listings Without Map</span></h2>
-                            <div class="breadcrumbs fl-wrap"><a href="#">Home</a><a href="#">Listings</a><span>Listings
-                                    Without Map</span></div>
+                            <h2><span>Listagem sem mapa</span></h2>
+                            <div class="breadcrumbs fl-wrap"><a href="#">Home</a><a href="#">Listagem</a><span>Listagem sem map</span></div>
                             <span class="section-separator"></span>
                         </div>
                     </div>
                     <div class="header-sec-link">
-                        <div class="container"><a href="#sec1" class="custom-scroll-link">Let's Start</a></div>
+                        <div class="container"><a href="#sec1" class="custom-scroll-link">Listagem</a></div>
                     </div>
                 </section>
                 <!--  section  end-->
@@ -174,11 +151,11 @@
                                         <div class="listsearch-input-wrap fl-wrap">
                                             <div class="listsearch-input-item">
                                                 <i class="mbri-key single-i"></i>
-                                                <input type="text" placeholder="Keywords?" value="" />
+                                                <input type="text" placeholder="Palavras-chave?" value="" />
                                             </div>
                                             <div class="listsearch-input-item">
                                                 <select data-placeholder="Location" class="chosen-select">
-                                                    <option>All Locations</option>
+                                                    <option>Todos Locais</option>
                                                     <option>Bronx</option>
                                                     <option>Brooklyn</option>
                                                     <option>Manhattan</option>
@@ -188,7 +165,7 @@
                                             </div>
                                             <div class="listsearch-input-item">
                                                 <select data-placeholder="All Categories" class="chosen-select">
-                                                    <option>All Categories</option>
+                                                    <option>Todas Categorias</option>
                                                     <option>Shops</option>
                                                     <option>Hotels</option>
                                                     <option>Restaurants</option>
@@ -197,15 +174,15 @@
                                                 </select>
                                             </div>
                                             <div class="listsearch-input-text" id="autocomplete-container">
-                                                <label><i class="mbri-map-pin"></i> Enter Addres </label>
-                                                <input type="text" placeholder="Destination , Area , Street"
+                                                <label><i class="mbri-map-pin"></i> Insira o endereço </label>
+                                                <input type="text" placeholder="Destino , Area , Rua"
                                                     id="autocomplete-input" class="qodef-archive-places-search"
                                                     value="" />
                                                 <a href="#" class="loc-act qodef-archive-current-location"><i
                                                         class="fa fa-dot-circle-o"></i></a>
                                             </div>
                                             <div class="distance-input fl-wrap">
-                                                <div class="distance-title"> Radius around selected destination
+                                                <div class="distance-title"> Raio ao redor do destino selecionado
                                                     <span></span> km</div>
                                                 <div class="distance-radius-wrap fl-wrap">
                                                     <input class="distance-radius rangeslider--horizontal" type="range"
@@ -215,7 +192,7 @@
                                             </div>
                                             <!-- Checkboxes -->
                                             <div class=" fl-wrap filter-tags">
-                                                <h4>Filter by Tags</h4>
+                                                <h4>Filtrar por tags</h4>
                                                 <div class="filter-tags-wrap">
                                                     <input id="check-a" type="checkbox" name="check" checked>
                                                     <label for="check-a">Elevator in building</label>
@@ -234,14 +211,14 @@
                                                 </div>
                                             </div>
                                             <!-- hidden-listing-filter end -->
-                                            <button class="button fs-map-btn">Update</button>
+                                            <button class="button fs-map-btn">Atualizar</button>
                                         </div>
                                         <!-- listsearch-input-wrap end -->
                                     </div>
                                 </div>
                                 <div class="col-md-8">
                                     <div class="listsearch-header fl-wrap">
-                                        <h3>Results For : <span>All Listings</span></h3>
+                                        <h3>Resultados para : <span>Todas as listas</span></h3>
                                         <div class="listing-view-layout">
                                             <ul>
                                                 <li><a class="grid active" href="#"><i class="fa fa-th-large"></i></a>
