@@ -1,132 +1,162 @@
 .geodir-category{
-    padding: 10px;
-    border: 1px solid #566985 !important;
+padding: 10px;
+border: 1px solid #566985 !important;
 }
 
 .geodir-category i {
-    display: block;
-    font-size: 120px;
-    padding-bottom: 10px;
+display: block;
+font-size: 120px;
+padding-bottom: 10px;
 }
 
 .ul-vantagens{
-    text-align: left;
-    font-size: 30px;
-    line-height: 2.2;
+text-align: left;
+font-size: 30px;
+line-height: 2.2;
 }
 
 .ul-vantagens ul{
-    margin: -20px 0;
+margin: -20px 0;
 }
 
-@media (max-width: 1063px) { 
-    .ul-vantagens{
-        text-align: center;
-        font-size: 20px;
-        margin-top: 40px;
-    }
+@media (max-width: 1063px) {
+.ul-vantagens{
+text-align: center;
+font-size: 20px;
+margin-top: 40px;
+}
 
-    .card-vantagens img {
-        width: 50%;
-    } 
+.card-vantagens img {
+width: 50%;
+}
 }
 
 .ul-cartoes{
-    font-size: 20px;
-    text-align: left;
-    color: #fff;
+font-size: 20px;
+text-align: left;
+color: #fff;
 }
 
 .ul-cartoes li i{
-    color: #566985;
+color: #566985;
 }
 
 #sec3 h2,
 #sec3 p {
-    color: #fff;
+color: #fff;
 }
 
 #sec3 .section-separator::before{
-    background: #566985;
+background: #566985;
 }
 
 #sec3 .section-subtitle {
-    color: #566985;
+color: #566985;
 }
 
 #sec3 .section-subtitle::before {
-    background: none;
+background: none;
 }
 
 .ul-links-social{
-    display: inline-flex;
+display: inline-flex;
 }
 
 .ul-links-social li {
-    background: #4DB7FE;
-    box-shadow: 0px 0px 0px 7px rgba(255,255,255,0.2);
-    border-radius: 5px; 
-    margin: 15px;
-    height: 40px;
-    width: 40px;
-    line-height: 3.5;
+background: #4DB7FE;
+box-shadow: 0px 0px 0px 7px rgba(255,255,255,0.2);
+border-radius: 5px;
+margin: 15px;
+height: 40px;
+width: 40px;
+line-height: 3.5;
 }
 
 .ul-links-social li:hover {
-    background: #2C3B5A;
+background: #2C3B5A;
 }
 
-.ul-links-social li  a {
-    padding: 10px;
+.ul-links-social li a {
+padding: 10px;
 }
 
 .ul-links-social a:hover {
-    color: #fff;
+color: #fff;
 }
 
 .ul-links-social li a i {
-    font-size: 20px;
+font-size: 20px;
 }
 
 
 .contact-us-family {
-    background: #f9f9f9;
-    padding-bottom: 40px;
-    padding-top: 0;
+background: #f9f9f9;
+padding-bottom: 40px;
+padding-top: 0;
 }
 
 .contact-us-family .section-title {
-    /* padding: 20px 0; */
-    padding-bottom: 20px;
+/* padding: 20px 0; */
+padding-bottom: 20px;
 }
 
 .contact-us-family .section-title h3 {
-    float: left;
-    width: 100%;
-    text-align: center;
-    color: #566985;
-    font-size: 24px;
-    font-weight: 700;
-    padding: 15px 0;
+float: left;
+width: 100%;
+text-align: center;
+color: #566985;
+font-size: 24px;
+font-weight: 700;
+padding: 15px 0;
 }
 
 .contact-us-family .contact-us-btn {
-    background: #4DB7FE;
-    box-shadow: 0px 0px 0px 7px rgba(0,0,0,0.1);
-    top: 0;
-    padding: 20px 55px;
-    border-radius: 30px;
+background: #4DB7FE;
+box-shadow: 0px 0px 0px 7px rgba(0,0,0,0.1);
+top: 0;
+padding: 20px 55px;
+border-radius: 30px;
 }
 
 .contact-us-family .contact-us-btn:hover {
-    background: #2C3B5A ;
-    color: #fff;
+background: #2C3B5A ;
+color: #fff;
 }
 
 .contact-us-family .join-wrap {
-    padding: 40px 10px;
+padding: 40px 10px;
 }
 
 .pb-3 {
-    padding-bottom: 1.7em;
+padding-bottom: 1.7em;
+}
+
+.navslide-wrap, .slide-progress, nav li a.act-link:before, .hs-nav .navslide-wrap.next-slide-wrap a, .folio-counter,
+.add-list, .section-separator:before, .listing-carousel-wrap .swiper-pagination
+.swiper-pagination-bullet.swiper-pagination-bullet-active, .card-btn:hover, .footer-widget #subscribe-button,
+.custom-form .log-submit-btn, .add-list, .parallax-section .section-separator:before, .sw-btn, .color-bg, .mapzoom-in,
+.mapzoom-out, .infoBox-close, .close-reg, .header-search-button, .listsearch-input-item
+.selectbox, .rangeslider__fill, .fs-map-btn, .more-filter-option span, .back-to-filters, .back-to-filters span, .pin,
+.load-more-button, .footer-menu li:before, .pagination a.current-page, .pagination a:hover, .section-title .breadcrumbs
+a:before, .showshare, .scroll-nav-wrapper .scroll-nav li a:before, .list-single-main-wrapper .breadcrumbs,
+.list-widget-social li a, .btn.transparent-btn:hover, .btn.flat-btn, .accordion a.toggle.act-accordion, .custom-form
+.quantity input.qty, .widget-posts-link span, .box-item a.gal-link, .custom-form .selectbox, .photoUpload,
+.user-profile-menu li a span, .tabs-menu li.current a, .tabs-menu li a:hover, .header-social li a:hover,
+.main-search-button, .selectbox li:hover, .color-overlay, .trs-btn, .testi-counter, .to-top, .header-sec-link a,
+.card-btn, .profile-edit-page-header .breadcrumbs a:before, .dashboard-listing-table-opt li a.del-btn, .search-widget
+.search-submit, .box-widget-item .list-single-tags a, .reviews-comments-item-text .new-dashboard-item:hover, .step-item,
+.video-box-btn, .slick-dots li.slick-active button, .time-line-container:before, .error-wrap form .search-submit,
+.testimonials-carousel .slick-current .testimonilas-text, .cs-social li a, .cs-countdown-item:before, .listing-counter,
+.price-head, .price-link, .sp-cont:hover, .cluster div, .lg-actions .lg-next, .lg-actions .lg-prev, .log-out-btn:hover,
+.map-popup-category, .mapnavigation a:hover, .listsearch-input-item .nice-select, .listsearch-input-item .nice-select
+.list li.selected.focus, .listsearch-input-item .nice-select .list li:hover, .listsearch-input-item .nice-select .list
+li.selected, .custom-form .nice-select .list li:hover, .custom-form .nice-select .list li.selected, .custom-form
+.nice-select, .header-search-select-item .nice-select .list li:hover, .header-search-select-item .nice-select .list
+li.selected, .main-search-input-item .nice-select .list li:hover, .main-search-input-item .nice-select .list
+li.selected, .pac-item:hover{
+background: #1EABE8 !important;
+}
+
+.dark-header {
+background: #15739c !important;
 }
