@@ -63,7 +63,7 @@ display: inline-flex;
 }
 
 .ul-links-social li {
-background: #4DB7FE;
+background: #1EABE8;
 box-shadow: 0px 0px 0px 7px rgba(255,255,255,0.2);
 border-radius: 5px;
 margin: 15px;
@@ -111,7 +111,7 @@ padding: 15px 0;
 }
 
 .contact-us-family .contact-us-btn {
-background: #4DB7FE;
+background: #1EABE8;
 box-shadow: 0px 0px 0px 7px rgba(0,0,0,0.1);
 top: 0;
 padding: 20px 55px;
@@ -131,7 +131,7 @@ padding: 40px 10px;
 padding-bottom: 1.7em;
 }
 
-.navslide-wrap, .slide-progress, nav li a.act-link:before, .hs-nav .navslide-wrap.next-slide-wrap a, .folio-counter,
+.gradient-bg, .listing-geodir-category, .list-single-header-cat a, .box-widget-item .list-single-tags a:hover, .nav-holder nav li a:before,.navslide-wrap, .slide-progress, nav li a.act-link:before, .hs-nav .navslide-wrap.next-slide-wrap a, .folio-counter,
 .add-list, .section-separator:before, .listing-carousel-wrap .swiper-pagination
 .swiper-pagination-bullet.swiper-pagination-bullet-active, .card-btn:hover, .footer-widget #subscribe-button,
 .custom-form .log-submit-btn, .add-list, .parallax-section .section-separator:before, .sw-btn, .color-bg, .mapzoom-in,
